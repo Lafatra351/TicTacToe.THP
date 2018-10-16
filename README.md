@@ -1,9 +1,9 @@
-### Présentation
+## Présentation
 
 Jeu de morpion (tic tac toe) en Ruby OOP
 Exercice The Hacking Project par Stéphane Malville
 
-## Explication
+### Explication
 
 Le programme en orienté objet contient 4 classes, le plateau de jeu, les cases, les joueurs et le moteur de jeu.
 La classe Board (plateau) dessine le tableau et teste la victoire
@@ -14,6 +14,6 @@ Après chaque tour on change de joueur (méthode switch_player)
 
 Seul problème, en cas de match nul, le programme continue à boucler. Amélioration : tester l'occupation de toutes les cases, afficher "match nul".
 
-## Peer programming
+### Peer programming
 
 Programme réalisé en peer programming avec Victorian Roques et Nicolas G

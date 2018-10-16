@@ -92,7 +92,7 @@ class Game
     # crée le joueur 1
     @player1 = Player.new(name_1, "X")
     puts
-    puts "Joueur 2, ton symbole sera Z, choisis un nom: "
+    puts "Joueur 2, ton symbole sera underscore _ , choisis un nom: "
     print ">"
     name_2 = gets.chomp
 
